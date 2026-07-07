@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* font-size: 20px; */
+  box-sizing: border-box;
+}
+body{
+  background-color: white;
+ 
+}
+ .flex_container{
+  display: flex;
+
+  border: 5px dotted black;
+  justify-content: space-between ;
+  
+
+  align-items: center;
+   min-height: 500px; 
+     flex-direction:row ;  
+     align-content: center;
+     flex-wrap: wrap;
+ }
+ .box{
+  background-color: aqua;
+  width: 80px;
+  height: 80px;
+  font-size: 1.5rem;
+  /* gap: 30pxs; */
+ }
+ 

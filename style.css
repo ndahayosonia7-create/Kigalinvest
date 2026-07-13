@@ -596,36 +596,16 @@ footer a:hover {
 .banner.page .content h1 {
   font-size: 3.5em;
   text-shadow: 0 4px 20px rgba(0,0,0,0.3);
-  animation: fadeSlideDown 0.8s ease-out;
+  
 }
 
 .banner.page .content p {
   font-size: 1.2em;
   opacity: 0.95;
-  animation: fadeSlideUp 0.8s ease-out 0.2s both;
+  
 }
 
-@keyframes fadeSlideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes fadeSlideUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 /* ===== Page Header ===== */
 .page-header {
@@ -733,7 +713,7 @@ footer a:hover {
 .opp-card:hover .icon-wrapper {
   transform: scale(1.1) rotate(-5deg);
   background: linear-gradient(135deg, lightpink, #ff8a8a);
-  /* animation: ; */
+  
 }
 
 .opp-card .badge {

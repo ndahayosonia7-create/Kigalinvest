@@ -76,7 +76,7 @@ section.banner div.content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(#000000b4,#00000095,#00000095);
+  background: linear-gradient(#000000b4,#00000076,#00000084);
   gap :1.5rem;
   padding-top: 5rem;
 }
@@ -105,7 +105,7 @@ button {
   border-radius: 20px;
   background-color: transparent;
   color: inherit;
-  border: 2px solid inherit;
+  border: 2px solid white;
   display: flex;
   gap: 10px;
   cursor: pointer;
@@ -148,7 +148,7 @@ button:hover {
 .search-box {
   display: flex;
   border: 2px solid #ffffff9c;
-  backdrop-filter: brightness(0.9);
+  background: #ffffff1d;
   border-radius: 25px;
   flex-direction: column;
   align-items: center;

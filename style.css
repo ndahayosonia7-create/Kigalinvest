@@ -490,6 +490,7 @@ footer a:hover {
 .potential-investors {
   text-align: center;
   padding: 20px 8% 50px;
+  margin-bottom: 10rem;
 }
 
 .investor-list {
@@ -764,6 +765,7 @@ footer a:hover {
   }
   
   ul { background: #d3d3d3e4;
+    gap: 10px;
 
   }
 }
